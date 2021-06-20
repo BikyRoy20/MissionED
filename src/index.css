@@ -1,13 +1,637 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "Muli", sans-serif;
+}
+.logo img{
+    height:60px;
+    width:50px;
+    border-radius:50%;
+}
+.store-logo{
+    height:30px;
+    width:50px;
+    border-radius:50%;
+    padding-top: 20px;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index:1;
+    background-color: rgb(235, 228, 235);
+}
+.logohead{
+    padding:10px;
+    font-size:2em;
+    font-weight: bold;
+    color:blueviolet;
+    text-shadow: 2px 4px violet;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+.logo-img{
+    height:60px;
+    width:50px;
+    border-radius:50%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navlist{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+.navlist li{
+    list-style: none;
+    margin:20px;
+    font-size:20px;
+  
+    
+}
+.navlist li a{
+  text-decoration:none;
+   margin:20px;
+  color:gray;
+  font-weight: bold;
+  font-size:medium;
+  }
+.navlist li a:hover{
+    text-decoration:underline;
+    color:blueviolet;
+    font-weight: bold;
+}
+
+.btn{
+   padding:8px 20px;
+   border:2px solid gray;
+   border-radius: 10px;
+   cursor:pointer;
+   background: none;
+   color:gray;
+   font-weight:bold;
+   transition: 0.5s;
+   }
+.btn:hover{
+    background:black;
+    color:white;
+}
+.box{
+   
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    color:black;
+    margin:auto;
+    height:500px;
+    max-width:100%;
+}
+
+.firsthalf{
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+.firsthalf p{
+    color:gray;
+}
+.secondhalf img{
+    height: 500px;
+    width:460px;
+    border-radius:10px;
+    margin:100px;
+    padding:150px;
+    
+    
+}
+.buttons{
+    margin:20px;
+}
+.btn-sub{
+    text-decoration:none;
+    padding:10px;
+    margin:5px;
+    cursor:pointer;
+    border:2px solid gray;
+    border-radius: 20px;
+    background: none;
+    color:gray;
+    transition: 0.5s;
+}
+
+
+.btn-sub:hover{
+    color:white;
+    background: blueviolet;
+    
+}
+.store-head{
+    color:blueviolet;
+    font-size: 25px;
+    
+}
+.store-para{
+    color:black;
+    font-size: large;
+}
+.pspan{
+    font-weight: bold;
+    font-size: x-large;
+}
+.btn-sub span{
+    color:yellow;
+    font-size: 10px;
+    border: 1px solid red;
+    background: red;
+}
+.wave{
+    
+    margin-bottom:200px;
+}
+
+
+.main{
+   margin: 2%;
+   }
+   
+.card{
+        width: 20%;
+        display:flex;
+        display:inline-block;
+        margin:6%;
+        justify-content: center;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        padding:5px;
+        
+    }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+     }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+   
+   h1{
+     font-size: 18px;
+    }
+   
+   .des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   button{
+     margin-top: 50px;
+     margin-bottom: 20px;
+     background-color: white;
+     border: 2px solid violet;
+     border-radius: 5px;
+     padding:20px;
+     color:gray;
+     font-size:large;
+     transition: 0.5s;
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+}
+
+
+.headsec{
+    display:flex;
+    justify-content: center;
+}
+.headsec h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:blueviolet;
+    text-shadow: 2px 3px violet;
+    
+}
+.earn-des{
+    padding:9px;
+    margin:6px;
+    margin-left: 35px;
+    border:2px solid gray;
+    border-radius: 35px;
+}
+.earn-des:hover{
+    background-color: blueviolet;
+    color:white;
+}
+.earn-head{
+    display:flex;
+    flex-direction: column;
+}
+.earn-head h1{
+    margin-left:500px;
+    font-size:33px;
+    color:blueviolet;
+    text-shadow: 2px 3px violet;
+}
+.earn-head p{
+    margin-left:600px;
+    font-size:20px;
+    color:blueviolet;
+    text-shadow: 2px 2px violet;
+}
+.card-div{
+    display:flex;
+    justify-content: center;
+}
+.forms{
+   width:100%;
+   height:400px;
+   display:flex;
+   justify-content: center;
+  
+}
+.feed-head h1{
+    margin-left: 270px;
+    font-size:33px;
+    color:blueviolet;
+    text-shadow: 2px 3px violet;
+}
+.feed-head p{
+    margin-left:210px;
+    font-size:17px;
+    color:gray;
+
+}
+.part-one{
+     width:500;
+    padding:5px;
+    display:flex;
+}
+.part-one input{
+    width:300px;
+    padding:10px;
+    margin:20px;
+    border:2px solid violet;
+    border-radius:30px;
+    
+}
+.part-two{
+    display:flex;
+    justify-content: center;
+    width:500;
+    padding:5px;
+}
+.part-two input{
+    width:300px;
+    padding:10px;
+    margin:20px;
+    border:2px solid violet;
+    border-radius:30px;
+}
+.mesg{
+    width:500;
+    padding:10px;
+}
+.mesg textarea{
+    width:300px;
+    padding:12px;
+    margin:20px;
+    border:2px solid violet;
+    border-radius:30px;
+}
+.btnc{
+    margin-top:10px;
+    margin-left: 300px;
+    border:3px solid violet;
+    border-radius:40px;
+    padding:20px;
+    transition: 0.5s;
+}
+.news{
+    margin-top:50px;
+    margin-left:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(235, 228, 235);
+    height:200px;
+    width:600px;
+    border-radius: 40px;
+}
+.subs h1{
+    margin-left: 140px;
+    font-size:20px;
+    margin-top:60px;
+    color:black;
+    text-shadow: 2px 1px blueviolet;
+}
+.feedIn{
+    margin-left:140px;
+}
+.feedIn input{
+    width:300px;
+    padding:10px;
+    margin-top: 10px;
+}
+.btnc-r{
+    width:150px;
+    margin-top:10px;
+    margin-left: 230px;
+    border:3px solid violet;
+    border-radius:30px;
+    padding:15px;
+    transition: 0.5s;
+}
+.others{
+    margin-top:30px;
+    height:300px;
+    width:100%;
+    display: flex;
+    flex-direction:row;
+   
+}
+.others-head{
+    padding:10px;
+    font-size:2em;
+    font-weight: bold;
+    color:blueviolet;
+    text-shadow: 2px 4px violet;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.oth{
+    margin-left:500px;
+}
+.oth p{
+    font-size: 18px;
+    color:gray;
+    font-weight: bold;
+}
+.desg{
+    margin-top:100px;
+}
+.amil{
+    display:flex;
+}
+.fas{
+    margin:20px;
+}
+.mail{
+    margin-top: 20px;
+}
+.mil{
+    font-size: 20px;
+    margin-left: 4px;
+    color:gray;
+}
+.mil:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}
+.icons{
+    margin-top:20px;
+}
+.links{
+    margin:20px;
+}
+.quick{
+    height:200px;
+    width:520px;
+    
+}
+.quick h1{
+    margin-left: 40px;
+    font-size: 23px;
+    margin-top:24px;
+    color:blueviolet;
+    text-shadow: 2px 2px violet;
+}
+.lin{
+    padding:20px 20px;
+    margin-top:30px;
+    text-decoration: none;
+    color:gray;
+}
+.lin:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    color:gray;
+    background-color: rgb(235, 228, 235);
+}
+.cds{
+    width: 20%;
+    display:flex;
+    display:inline-block;
+    margin:2%;
+    justify-content: center;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    padding:6px;
+    
+}
+.imgs{
+    height:270px;
+}
+.refi{
+    height:500px;
+    width:100%;
+     color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("https://www.bajajfinserv.in/The_Top_Small_Business_Areas_for_2017_Img_720_The_Top_Small_Business_Areas_for_2017.jpg");
+}
+.jb h1{
+   margin-left: 590px;
+   color:black;
+   font-size: 25px;
+}
+.jb p{
+    margin-left:200px;
+    font-size: 18px;
+}
+.button{
+    width:150px;
+    margin-top:40px;
+    margin-left: 630px;
+    border:3px solid black;
+    border-radius:50px;
+    padding:10px;
+    transition: 0.5s;
+}
+.rg{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.rg img{
+    padding:5px;
+    height:300px;
+    border-radius: 50%;
+}
+.bg{
+    display:flex;
+    flex-direction:column ;
+}
+.bg h1{
+    margin-left:520px;
+    margin-top:30px;
+    font-size: 25px;
+    color:blueviolet;
+    text-shadow: 2px 2px violet;
+}
+.bg p{
+    margin-left:400px;
+    margin-right:400px;
+    color:gray;
+}
+.hij h1{
+    display:flex;
+    justify-content: center;
+    font-size:20px;
+    color:blueviolet;
+    text-shadow: 2px 2px violet;
+}
+.fgh{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fgh h1{
+    color:blueviolet;
+    font-size:22px;
+    text-shadow: 2px 2px violet;
+}
+.fgh{
+    font-size:18px;
+    color:gray;
+}
+.cards{
+    display:flex;
+    padding:10px;
+}
+.flip-card {
+    padding:20px;
+    margin-left:60px;
+    margin-right:60px;
+    justify-content: center;
+    align-items: center;
+   position:relative;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+   
+}
+  .flip-card-inner {
+    border:1px solid gray; 
+    position: relative;
+    z-index:0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    margin-left:10px;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    z-index:0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  .flip-card-front img{
+      height: 200px;
+      width:298px;
+  }
+  .flip-card-back {
+    background-color: white;
+    color: white;
+    transform: rotateY(180deg);
+    border:1px solid gray;
+  }
+  .flip-card-back h1{
+    color: black;
+    margin-top: 20px;
+    font-size:30px;
+  }
+  .dropbtn {
+   color: gray;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background: white;
+    border:2px solid violet;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: black;}
+  
+  .rog{
+  background-color:rgba(128, 128, 128, 0.534);
+  background-size: cover;
+  height:500px;
+  width:100%;
+  }
+  .seg{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .rog h1{
+      margin-left:50px;
+      color:white;
+      font-size:25px;
+  }
+  .rog p{
+      color:white;
+      font-size:19px;
+  }
+
