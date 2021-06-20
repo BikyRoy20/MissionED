@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MissionED/static/css/main.58573834.chunk.css",
+    "main.js": "/MissionED/static/js/main.3cf1e60a.chunk.js",
+    "main.js.map": "/MissionED/static/js/main.3cf1e60a.chunk.js.map",
+    "runtime-main.js": "/MissionED/static/js/runtime-main.430438b5.js",
+    "runtime-main.js.map": "/MissionED/static/js/runtime-main.430438b5.js.map",
+    "static/js/2.1a0de106.chunk.js": "/MissionED/static/js/2.1a0de106.chunk.js",
+    "static/js/2.1a0de106.chunk.js.map": "/MissionED/static/js/2.1a0de106.chunk.js.map",
+    "index.html": "/MissionED/index.html",
+    "static/css/main.58573834.chunk.css.map": "/MissionED/static/css/main.58573834.chunk.css.map",
+    "static/js/2.1a0de106.chunk.js.LICENSE.txt": "/MissionED/static/js/2.1a0de106.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.430438b5.js",
+    "static/js/2.1a0de106.chunk.js",
+    "static/css/main.58573834.chunk.css",
+    "static/js/main.3cf1e60a.chunk.js"
+  ]
+}
